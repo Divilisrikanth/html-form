@@ -1,12 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: rgb(114, 226, 114);
-  margin-left: 3%;
-  margin-right: 3%;
-}
-#first {
+/* Styling the Body element i.e. Color,
+		Font, Alignment */
+body {
+  background-color: #05c46b;
+  font-family: Verdana;
   text-align: center;
 }
 
@@ -32,7 +28,7 @@ form {
 }
 
 /* Styling form-control input,
-        select, textarea */
+		select, textarea */
 .form-control input,
 .form-control select,
 .form-control textarea {
@@ -45,7 +41,7 @@ form {
 }
 
 /* Styling form-control Radio
-        button and Checkbox */
+		button and Checkbox */
 .form-control input[type="radio"],
 .form-control input[type="checkbox"] {
   display: inline-block;
