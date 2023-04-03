@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(15, 207, 15);
+}
+.header {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  text-color: black;
+  font-size: 32px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 2000px;
+  justify-content: space-between;
+  width: 70%;
+  background-color: #fff;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+}
+.content,
+label,
+select,
+option,
+textarea,
+input {
+  background-color: #fff;
+  padding: 8px 20px;
+  width: 90%;
+}
+.content input[type="radio"] {
+  display: inline-block;
+  width: auto;
+}
+.content small {
+  background-color: #fff;
+}
+.content input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+button {
+  background-color: #05c46b;
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.footer {
+  height: 100px;
+  line-height: 100px;
+}
